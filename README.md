@@ -21,8 +21,3 @@ The design is fully responsive across mobile, tablet, and desktop.
 - Mobile view: optimized with smaller font sizes and scrollable tables
 - Tablet view: balanced two-column layout without empty spaces
 - Desktop view: full dashboard experience with wide layout
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/dashboard-management-system.git
