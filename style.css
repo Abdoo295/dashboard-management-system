@@ -1271,16 +1271,16 @@ td {
   font-weight: 500;
 }
 
-.table td:nth-child(3), 
+.table td:nth-child(3),
 .table td:nth-child(5) {
   text-align: center;
 }
 
-@media (min-width: 820px) and (max-width: 1124px) {
+@media (max-width: 1124px) {
   .table table {
     width: 100%;
   }
-  
+
   .l-body {
     width: 100%;
   }
@@ -1295,16 +1295,15 @@ td {
       "header header"
       "i1 i2"
       "i3 i3"
-      "i6 i6"
       "i5 i4"
       "table table"
       "i7 i8"
-      "i9 i9";
+      "i9 i6";
     gap: 20px;
   }
 
   .inr-4 {
-    padding-bottom: 90px;
+    padding-bottom: 92px;
   }
 
   .i5-cards {
@@ -1316,20 +1315,13 @@ td {
     width: 100%;
   }
 
-
-  .i6-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-
   .i6-inr-card {
     height: 200px;
     margin: 0;
   }
 
   .inr-7 {
-    padding-bottom: 98px;
+    padding-bottom: 85px;
   }
 
   .front-card,
@@ -1351,6 +1343,11 @@ td {
     width: 100%;
     max-width: 100%;
   }
+  .saif,
+  .bell,
+  .search {
+    display: none;
+  }
 
   .table {
     overflow-x: auto;
@@ -1369,13 +1366,6 @@ td {
     max-width: 100%;
   }
 
-  .active,
-  .saif {
-    display: none;
-  }
-  .r-body {
-    display: none;
-  }
   .l-body {
     width: 100%;
     grid-template-columns: 1fr;
@@ -1386,11 +1376,16 @@ td {
       "i3"
       "i4"
       "i5"
-      "i6"
       "table"
       "i7"
       "i8"
-      "i9";
+      "i9"
+      "i6";
+  }
+
+  .inr-4,
+  .inr-7 {
+    padding-bottom: 20px;
   }
 
   .i5-cards {
@@ -1425,12 +1420,5 @@ td {
     span {
       font-size: 10px;
     }
-  }
-
-  .search {
-    display: none;
-  }
-  .bell {
-    display: none;
   }
 }
